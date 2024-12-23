@@ -24,6 +24,7 @@
             //int X =(int) O1; //unsafe 
             #endregion
 
+            #region Nullable
             //Nullable 
             //Value Type
 
@@ -66,10 +67,41 @@
             //Console.WriteLine(Message);
             //Console.WriteLine(Message2);
 
+            #endregion
 
+            #region Null Propagation Operater ?
 
+            ////Null Propagation Operater ?
 
+            //double X = default;
+            //bool C = default;
 
+            //int[] Arr = default;
+            ////int[] Arr ={1,2,3};
+            ////for (int i = 0; i < args.Length; i++)
+            ////{
+            ////    Console.WriteLine(args[i]);
+            ////}
+
+            ////for (int i = 0;(Arr is not null)&& i < args.Length; i++)
+            ////{
+            ////    Console.WriteLine(Arr[i]);
+            ////}
+
+            ////if(Arr is not null)
+            ////{
+            ////    for (int i = 0; i < Arr.Length; i++)
+            ////    {
+            ////        Console.WriteLine(Arr[i]);
+            ////    }
+            ////}
+
+            ////for (int i = 0; i < Arr?.Length; i++)
+            ////{
+            ////    Console.WriteLine(Arr[i]);
+            ////}
+            //// int len=Arr?.Length?? 0;    
+            #endregion
         }
     }
 }
